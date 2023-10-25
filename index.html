@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>CryptoCurrency</title>
+		
+<!-- CSS Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		
+<!-- META -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+<!-- FONT AWESOME -->
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+				
+<!-- CSS Style -->
+		<link rel="stylesheet" href="css/style.css">
+
+<!-- JS Style -->
+		<script src="js/script.js"></script>
+		<script src="https://unpkg.com/kinet@2.2.1/dist/kinet.min.js"></script>
+		
+		
+	</head>
+	<body>
+	
+		<div class="body-container d-flex">
+
+<!--***********************************DASH BOARD COLOMN START***********************************-->
+			
+			<div id="mySidebar" class="dashboard-container sidebar bg-primary lan col " style="width:vw; " >
+				<div style="">
+					<div class="logo-block">
+						<!-- <div class="block-img "><img src="img/logo1.png" alt="" class="logo-img m-1" Style="border-radius:50%;" ></div> -->
+						<div><i class="logo-icon fa-brands fa-bitcoin mx-3" style="; font-size:50px;"></i></div>
+						<div class="logo-text mx-2">CryptoWorld</div>	
+					</div>
+				</div>
+				
+				
+				<div class="accordion" id="accordionExample" style="width:; border-radius:0px !important; ">
+					<div class="accordion-item ">
+						<h2 class="accordion-header" id="headingOne">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboard">
+							<span style="padding:0px;"><img src="img/dashboard.png" alt="" class="block-text-img "></span>
+							<span class="px-5">#1</span>
+							</button>
+						</h2>
+						<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<div class="accordion" id="sub-accordionExample">
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="sub-headingOne">
+											<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												<span class="px-1">1.1</span>
+											</button>
+										</h2>
+										<div id="sub-collapseOne" class="accordion-collapse collapse" aria-labelledby="sub-headingOne" data-bs-parent="#sub-accordionExample">
+											<div class="accordion-body">
+												<span class="px-3">1.1.1</span>
+											</div>
+											<div class="accordion-body">
+												<span class="px-3">1.1.2</span>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="sub-headingTwo">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseTwo" aria-expanded="false" aria-controls="sub-collapseTwo">
+												<span class="px-1">1.2</span>
+											</button>
+										</h2>
+										<div id="sub-collapseTwo" class="accordion-collapse collapse" aria-labelledby="sub-headingTwo" data-bs-parent="#sub-accordionExample">
+											<div class="accordion-body px-3">
+												<span class="px-3">1.2.1</span>
+											</div>
+											<div class="accordion-body px-3">
+												<span class="px-3">1.2.2</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" data-bs-toggle="tooltip" data-bs-placement="right" title="General">
+						<span style="padding:0px;"><img src="img/general.png" alt="" class="block-text-img "></span>
+							<span class="px-5">#2</span>
+						</button>
+						</h2>
+						<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								........
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" data-bs-toggle="tooltip" data-bs-placement="right" title="Apps">
+							<span style="padding:0px;"><img src="img/apps.png" alt="" class="block-text-img "></span>
+							<span class="px-5">#3</span>
+							</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								.......
+							</div>
+						</div>
+					</div>
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingFour">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour" data-bs-toggle="tooltip" data-bs-placement="right" title="Pages">
+							<span style="padding:0px;"><img src="img/pages.png" alt="" class="block-text-img "></span>
+							<span class="px-5">#4</span>
+							</button>
+						</h2>
+						<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<div class="accordion" id="sub-accordionExample4">
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="sub-heading4one">
+											<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapse4one" aria-expanded="true" aria-controls="collapseFour">
+												<span class="px-1">4.1</span>
+											</button>
+										</h2>
+										<div id="sub-collapse4one" class="accordion-collapse collapse" aria-labelledby="sub-heading4one" data-bs-parent="#sub-accordionExample4">
+											<div class="accordion-body">
+												<span class="px-3">4.1.1</span>
+											</div>
+											<div class="accordion-body">
+												<span class="px-3">4.1.2</span>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="sub-heading4Two">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapse4Two" aria-expanded="false" aria-controls="sub-collapse4Two">
+												<span class="px-1">4.2</span>
+											</button>
+										</h2>
+										<div id="sub-collapse4Two" class="accordion-collapse collapse" aria-labelledby="sub-heading4Two" data-bs-parent="#sub-accordionExample">
+											<div class="accordion-body px-3">
+												<span class="px-3">4.2.1</span>
+											</div>
+											<div class="accordion-body px-3">
+												<span class="px-3">4.2.2</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingFive">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" data-bs-toggle="tooltip" data-bs-placement="right" title="Transaction">
+							<span style="padding:0px;"><img src="img/transaction.png" alt="" class="block-text-img "></span>
+							<span class="px-5">#5</span>
+							</button>
+						</h2>
+						<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								.......
+							</div>
+						</div>
+					</div>
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingSix">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" data-bs-toggle="tooltip" data-bs-placement="right" title="Wallet">
+							<span style="padding:0px;"><img src="img/crypto.png" alt="" class="block-text-img "></span>
+							<span class="px-5">#6</span>
+							</button>
+						</h2>
+						<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								.......
+							</div>
+						</div>
+					</div>	
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingSeven">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven" data-bs-toggle="tooltip" data-bs-placement="right" title="Admin">
+							<span style="padding:0px;"><img src="img/admin.png" alt="" class="block-text-img "></span>
+							<span class="px-5">#7</span>
+							</button>
+						</h2>
+						<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<div class="accordion" id="sub-accordionExample7">
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="sub-heading7one">
+											<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapse7one" aria-expanded="true" aria-controls="collapseFour">
+												<span class="px-1">7.1</span>
+											</button>
+										</h2>
+										<div id="sub-collapse7one" class="accordion-collapse collapse" aria-labelledby="sub-heading7one" data-bs-parent="#sub-accordionExample7">
+											<div class="accordion-body">
+												<span class="px-3">7.1.1</span>
+											</div>
+											<div class="accordion-body">
+												<span class="px-3">7.1.2</span>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="sub-heading7Two">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapse7Two" aria-expanded="false" aria-controls="sub-collapse7Two">
+												<span class="px-1">7.2</span>
+											</button>
+										</h2>
+										<div id="sub-collapse7Two" class="accordion-collapse collapse" aria-labelledby="sub-heading7Two" data-bs-parent="#sub-accordionExample7">
+											<div class="accordion-body px-3">
+												<span class="px-3">7.2.1</span>
+											</div>
+											<div class="accordion-body px-3">
+												<span class="px-3">7.2.2</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingEight">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" data-bs-toggle="tooltip" data-bs-placement="right" title="Add">
+							<span style="padding:0px;"><img src="img/add.png" alt="" class="block-text-img "></span>
+							<span class="px-5">#8</span>
+							</button>
+						</h2>
+						<div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample8">
+							<div class="accordion-body">
+								.......
+							</div>
+						</div>
+					</div>
+					
+				</div>
+					
+			</div>
+			<div class="main-col col" id="main" style="">
+				<div class="navbar d-flex justify-content-between">
+					<div>
+						<button class="openbtn" onclick="toggle()" style="background-color: var(--background-color);;"><i class="hamburg-icon fa-solid fa-bars " ></i> </button> 
+					</div>
+					<div class="d-flex justify-content-around" style="height:10vh; position:sticky;">
+						<div class=""><a href="" ><img src="" alt="" class=""/></a></div>
+						<div class="message-box nav-box p-3">
+							<a href="#"><i class="fa-regular fa-message nav-icon" style="color: var(--text-color);; font-size:25px;"></i></a>
+						</div>
+						<div class="notification-box nav-box">
+							<a href="#"><i class="fa-regular fa-bell nav-icon" style="color: var(--text-color); font-size:25px;"></i></a>
+						</div>
+						<div class="profile-icon-box nav-box">
+							<a href="#"><i class="fa-solid fa-user-secret p-3 nav-icon" style="color: var(--text-color); font-size:25px;"></i></a>
+						</div>
+						
+						<div class="profile-text-box nav-box text-center dropdown">
+							<button href="#" onclick="myFunction()" class="dropbtn" >
+								<div class="profile-text-name dropbtn" style="padding:0px;">Rajat Pandey</div>
+								<!-- <div class=" profile-text-pos dropbtn" style="padding:0px;">Manager</div> -->
+							</button>
+							<div id="myDropdown" class="dropdown-content">
+								<div class="profile-dd">
+									<div class="prof-dd-img bg-primary">
+										<div Style="overflow:hidden; width:25vw; background-color: var(--background-color);">
+											<a href="#home" class="">
+												<img src="img/profile.jpg" alt="" class="check bg-white" style="width:70px; border-radius:50%;">
+											</a>
+										</div>
+										<div class="" style="height:5vh; width:25vw; background-color: var(--background-color);">
+										</div>
+									</div>
+									<div class="bg-white">
+										<div class="prof-dd-name text-center mx-auto">Rajat Pandey</div>							
+										<div class="prof-dd-position"><a href="#about">Stock Expert</a></div>
+										<div class=" d-flex justify-content-around px-3 m-3">
+											<div class="social-icon"><i class="fa-brands fa-square-facebook prof-social-icon" style="color:#6499E9;"></i></div>
+											<div class="social-icon"><i class="fa-brands fa-square-instagram prof-social-icon" style="background-color:; color:red;"></i></div>
+											<div class="social-icon"><i class="fa-brands fa-square-twitter prof-social-icon"style="color:#D67BFF"></i></div>
+											<div class="social-icon"><i class="fa-brands fa-youtube prof-social-icon" style="color:red;"></i></div>
+										</div>
+										<div class="d-flex justify-content-center">
+											<div class="btn m-2" style="border-radius:20px; background-color: var(--background-color);color: var(--text-color);" >Message</div>
+											<div class="btn m-2" style="border-radius:20px; background-color: var(--background-color);color: var(--text-color);" >Subscribe</div>
+										</div>
+										<div class="m-3 d-flex justify-content-around">
+											<div class="">
+												<i class="fa-regular fa-heart prof-icon fa-bounce" ></i>25.4k
+											</div>
+											<div class="px-3" style="border:0px 1px; border-left:1px solid black; border-right:1px solid black;">
+												<i class="fa-solid fa-reply prof-icon fa-bounce" style="background-color:white;"></i>20k
+												
+											</div>
+											<div class="">
+												<i class="fa-regular fa-comment prof-icon fa-bounce"></i>25.8k
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="main-body">
+					<div class="container">
+						<form>
+							<div style="border:0px solid black; box-shadow:0px 0px 10px blue; border-radius:5px; padding:10px; margin:10px;">
+								<h2 style="padding:10px;">Adding new Attribute</h2>
+								<div class="row">
+									<div class="col-md-4">
+										<label class="form-label">Arttibute</label>
+										<input type="text" pattern="[A-Za-z]+[\ ]*" title="Only Alphabets are allowed" placeholder="Attribute" class="name form-control item-0" id="validationTextarea" required="required" style="  ">
+									</div>
+									<div class="col-md-4">
+										<label class="form-label">Icon</label>
+										<input type="text" pattern="[A-Za-z]+[\ ]*" title="Only Alphabets are allowed" placeholder="Icon" class="name form-control item-0" id="validationTextarea" required="required" style="">
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="footer text-center p-3">
+					2023 &#169; Influence - Designed by CR Creation
+				</div>
+			</div>
+			
+		</div>
+	
+<!-- JS Bootstrap -->
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	
+	
+	
+<!-- JAVA SRCIPT -->
+ 
+	</body>
+</html>

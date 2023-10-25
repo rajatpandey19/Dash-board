@@ -1,0 +1,259 @@
+/********************** RESET CSS **********************/
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	border:0px solid black;
+	background-color:none;
+}
+
+/********************* VARIABLES **********************/
+:root{
+	--head-text:'Roboto Condensed', sans-serif;
+	--sub-head-text:'Raleway', sans-serif;
+	--head-text-color:black;
+	--sub-head-text-color:#D988B9;
+	--background-color: #1F4172;
+	--text-color: white;
+	--hover-text-color:black;
+}
+/********************** DASHBOARD COL **********************/
+.dashboard-container::-webkit-scrollbar {
+    display: none;
+	
+}
+.dashboard-container{
+	-ms-overflow-style: none; 
+	scrollbar-width: none;  
+	
+}
+/*------------------- DROPDOWN OF DASHBOARD -----------------*/
+
+.block-img{
+	width:5vw;
+	margin:0px 10px ;	
+}
+.logo-icon{
+	color:var(--text-color);
+}
+.logo-icon:hover{
+	color:var(--hover-text-color);
+}
+.logo-img{
+	width:65px;
+}
+.block-text-img{
+	width:30px;
+	margin:0px 5px; 
+}
+.logo-block{
+	display:flex!important;
+	margin:30px 0px;
+}
+.logo-text{
+	font-size:23px;
+	margin:;
+	width:auto;
+	font-weight:700;
+	color:var(--text-color);
+	
+}
+.accordion-item{
+	box-shadow:0px 0px 0px white;
+	background-color:white;
+}
+
+/*********************** DASHBOARD COLOUMN FUNCTIONING***********************/
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 99%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin:5px;
+  border-radius:5px;
+  padding:10px;
+  background-color:var(--background-color) !important;
+  overflow-x: hidden;
+  transition: 0.5s;
+  
+  /* padding-top: 60px; */
+}
+.logo-icon:hover{
+	color:white;
+	font-size:25px;
+	transition:0.3s;
+	transition:all 0.5s ease-in-out;
+}
+.nav-box:hover .nav-icon{
+	
+	font-size:30px;
+	transition:all 0.5s ease-in-out;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-left:100px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+/**************************** MAIN COLOUMN ********************/
+
+#main{
+	padding:10px;
+}
+/**************************** NAVBAR *************************/
+
+.navbar{
+	box-shadow:0px 0px 5px black;
+	background-color: var(--background-color);
+	padding:0px 2vw 0px 1vw;
+	border-radius:0px 5px 5px 0px ;
+	margin:0px;
+}
+.hamburg-icon{
+	font-size:20px;
+	color:white;
+}
+.openbtn:hover .hamburg-icon{
+	transition:0.5s;
+	font-size:23px;
+}
+.nav-box{
+	margin:auto 1vw;
+	
+}
+.profile-text-box{
+	margin-left:2vw;
+}
+.profile-text-name{
+	text-decoration:none;
+	padding:0px;
+}
+.profile-text-pos{
+	text-decoration:none;
+	padding:0px;
+}
+/************** PROFILE TEXT DROPDOWN **********/
+
+.dropbtn {
+  background-color: #;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color:var(--background-color);
+  color:white;
+}
+
+/* .dropbtn:hover, .dropbtn:focus { */
+  /* background-color: #2980B9; */
+/* } */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown a{
+	 text-decoration: none;
+}
+
+.dropdown a:hover {
+	background-color: ;
+}
+
+.show {
+	display: block;
+}
+.profile-dd{
+	position:fixed;
+	top:90px;
+	right:10px;
+	border-radius:5px ;
+	/* height:40vh; */
+	width:40vh;
+	box-shadow:0px 0px 5px gray;
+}
+.check{
+	position:absolute;
+	top: 15px;
+    left: 120px;
+	padding:2px;
+	background-color: white;
+	border: 3px solid var(--background-color);
+}
+
+.prof-dd-img{
+	background-color:;
+	overflow:hidden;
+	margin-bottom:25px;
+	border-radius:5px 5px 0px 0px;
+}
+.prof-dd-name{
+	
+	font-weight:700;
+	font-family: 'Roboto', sans-serif;
+}
+.profile-text-name{
+	font-family:var(--head-text);
+	font-size:18px;
+	
+}
+.profile-text-box{
+	background-color:var(--background-color);
+}
+.profile-text-pos{
+	font-family:var(--sub-head-text);
+	color:var(--sub-head-text-color);
+	font-size:15px;
+	font-weight:300;
+}
+.prof-dd-name{
+	font-family:var(--head-text);
+	font-size:18px;
+}
+.prof-dd-position{
+	font-family:var(--sub-head-text);
+	color:var(--sub-head-text-color);
+	font-size:15px;
+}
+.prof-social-icon{
+	font-size:30px;
+	padding:10px 5px;
+}
+.social-icon{
+	margin:5px 5px;
+}
+.prof-icon{
+	color:black;
+	font-size:15px;
+	padding:5px;
+}
